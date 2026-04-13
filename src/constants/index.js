@@ -114,6 +114,21 @@ const experiences = [
 
 const projects = [
   {
+    name: "SpicyToday - AI-Powered Social Media Platform",
+    description:
+      "A full-stack AI-powered social media platform currently in development with real-time interaction and production-grade backend workflows.",
+    run_output:
+      "Successfully built a production-ready social media backend with 30+ REST APIs, real-time messaging, and deployable architecture.",
+    image: "/spicytoday-preview.svg",
+    tags: [
+      { name: "HTML5/CSS3/JavaScript", color: "text-orange-400" },
+      { name: "Python/Flask", color: "text-green-400" },
+      { name: "MongoDB/Socket.IO", color: "text-cyan-400" },
+    ],
+    source_code_link: "",
+    live_demo_link: "",
+  },
+  {
     name: "Amazon-Clone",
     description: "Project repository from GitHub profile.",
     run_output: "No hosted output link on GitHub; run locally from source code.",

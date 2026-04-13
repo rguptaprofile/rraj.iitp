@@ -8,15 +8,31 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+const getPreviewImage = (sourceCodeLink, image) => {
+  if (image) {
+    return image;
+  }
+
+  if (sourceCodeLink) {
+    const repoPath = sourceCodeLink.replace("https://github.com/", "");
+    return `https://opengraph.githubassets.com/1/${repoPath}`;
+  }
+
+  return "/spicytoday-preview.svg";
+};
+
 const ProjectCard = ({
   index,
   name,
   description,
   run_output,
   tags,
+  image,
   source_code_link,
   live_demo_link,
 }) => {
+  const previewImage = getPreviewImage(source_code_link, image);
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -27,7 +43,13 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[80px] rounded-2xl violet-gradient'>
+        <div className='relative w-full h-[190px] rounded-2xl overflow-hidden bg-[#11182d] border border-white/10'>
+          <img
+            src={previewImage}
+            alt={`${name} preview`}
+            className='w-full h-full object-cover'
+          />
+          <div className='absolute inset-0 bg-gradient-to-t from-[#050816]/75 via-[#050816]/10 to-transparent' />
           <div className='absolute inset-0 flex justify-end items-start m-3 card-img_hover'>
             {live_demo_link ? (
               <button
@@ -38,13 +60,15 @@ const ProjectCard = ({
                 Output
               </button>
             ) : null}
-            <button
-              type='button'
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img src={github} alt='source code' className='w-1/2 h-1/2 object-contain' />
-            </button>
+            {source_code_link ? (
+              <button
+                type='button'
+                onClick={() => window.open(source_code_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img src={github} alt='source code' className='w-1/2 h-1/2 object-contain' />
+              </button>
+            ) : null}
           </div>
         </div>
 
@@ -84,9 +108,9 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          a preview image, code repository link, and live output where
+          available. It reflects my ability to solve complex problems, work
+          with different technologies, and manage projects effectively.
         </motion.p>
       </div>
 
