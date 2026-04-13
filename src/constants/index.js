@@ -287,18 +287,18 @@ const projects = [
     source_code_link: "https://github.com/rguptaprofile/Quiz-App",
     live_demo_link: "",
   },
-  {
-    name: "rahul-professioal-portfolio",
-    description: "This is my professional Profile or Portfolio.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
-    tags: [
-      { name: "HTML", color: "text-orange-400" },
-      { name: "Original", color: "text-purple-400" },
-      { name: "GitHub", color: "text-cyan-400" },
-    ],
-    source_code_link: "https://github.com/rguptaprofile/rahul-professioal-portfolio",
-    live_demo_link: "",
-  },
+  // {
+  //   name: "rahul-professioal-portfolio",
+  //   description: "This is my professional Profile or Portfolio.",
+  //   run_output: "No hosted output link on GitHub; run locally from source code.",
+  //   tags: [
+  //     { name: "HTML", color: "text-orange-400" },
+  //     { name: "Original", color: "text-purple-400" },
+  //     { name: "GitHub", color: "text-cyan-400" },
+  //   ],
+  //   source_code_link: "https://github.com/rguptaprofile/rahul-professioal-portfolio",
+  //   live_demo_link: "",
+  // },
   {
     name: "Rahul-s-GPT---Personal-Assistant",
     description:
@@ -325,18 +325,18 @@ const projects = [
     source_code_link: "https://github.com/rguptaprofile/Rock-Paper-Scissors-Game",
     live_demo_link: "",
   },
-  {
-    name: "rraj.iitp",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
-    tags: [
-      { name: "General", color: "text-cyan-400" },
-      { name: "Original", color: "text-purple-400" },
-      { name: "GitHub", color: "text-cyan-400" },
-    ],
-    source_code_link: "https://github.com/rguptaprofile/rraj.iitp",
-    live_demo_link: "",
-  },
+  // {
+  //   name: "rraj.iitp",
+  //   description: "Project repository from GitHub profile.",
+  //   run_output: "No hosted output link on GitHub; run locally from source code.",
+  //   tags: [
+  //     { name: "General", color: "text-cyan-400" },
+  //     { name: "Original", color: "text-purple-400" },
+  //     { name: "GitHub", color: "text-cyan-400" },
+  //   ],
+  //   source_code_link: "https://github.com/rguptaprofile/rraj.iitp",
+  //   live_demo_link: "",
+  // },
   {
     name: "SaarthiX",
     description: "Project repository from GitHub profile.",
