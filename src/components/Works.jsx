@@ -58,32 +58,7 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[190px] rounded-2xl overflow-hidden bg-[#11182d] border border-white/10'>
-          <PreviewImage src={previewImage} alt={`${name} preview`} />
-          <div className='absolute inset-0 bg-gradient-to-t from-[#050816]/75 via-[#050816]/10 to-transparent' />
-          <div className='absolute inset-0 flex justify-end items-start m-3 card-img_hover'>
-            {live_demo_link ? (
-              <button
-                type='button'
-                onClick={() => window.open(live_demo_link, "_blank")}
-                className='black-gradient px-3 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2 text-white text-[12px]'
-              >
-                Output
-              </button>
-            ) : null}
-            {source_code_link ? (
-              <button
-                type='button'
-                onClick={() => window.open(source_code_link, "_blank")}
-                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-              >
-                <img src={github} alt='source code' className='w-1/2 h-1/2 object-contain' />
-              </button>
-            ) : null}
-          </div>
-        </div>
-
-        <div className='mt-5'>
+        <div>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
           <p className='mt-2 text-[#b8b9d2] text-[12px]'>{run_output}</p>
@@ -98,6 +73,36 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+        </div>
+
+        <div className='mt-5'>
+          <p className='text-[#d4d7f7] text-[12px] mb-2 font-semibold tracking-wide'>
+            Project Output Preview
+          </p>
+          <div className='relative w-full h-[190px] rounded-2xl overflow-hidden bg-[#11182d] border border-white/10'>
+            <PreviewImage src={previewImage} alt={`${name} preview`} />
+            <div className='absolute inset-0 bg-gradient-to-t from-[#050816]/75 via-[#050816]/10 to-transparent' />
+            <div className='absolute inset-0 flex justify-end items-start m-3 card-img_hover'>
+              {live_demo_link ? (
+                <button
+                  type='button'
+                  onClick={() => window.open(live_demo_link, "_blank")}
+                  className='black-gradient px-3 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2 text-white text-[12px]'
+                >
+                  Output
+                </button>
+              ) : null}
+              {source_code_link ? (
+                <button
+                  type='button'
+                  onClick={() => window.open(source_code_link, "_blank")}
+                  className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+                >
+                  <img src={github} alt='source code' className='w-1/2 h-1/2 object-contain' />
+                </button>
+              ) : null}
+            </div>
+          </div>
         </div>
       </Tilt>
     </motion.div>
