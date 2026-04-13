@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
 
@@ -19,6 +19,21 @@ const getPreviewImage = (sourceCodeLink, image) => {
   }
 
   return "/spicytoday-preview.svg";
+};
+
+const PreviewImage = ({ src, alt }) => {
+  const [currentSrc, setCurrentSrc] = useState(src || "/spicytoday-preview.svg");
+
+  return (
+    <img
+      src={currentSrc}
+      alt={alt}
+      loading='lazy'
+      referrerPolicy='no-referrer'
+      onError={() => setCurrentSrc("/spicytoday-preview.svg")}
+      className='w-full h-full object-cover'
+    />
+  );
 };
 
 const ProjectCard = ({
@@ -44,11 +59,7 @@ const ProjectCard = ({
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[190px] rounded-2xl overflow-hidden bg-[#11182d] border border-white/10'>
-          <img
-            src={previewImage}
-            alt={`${name} preview`}
-            className='w-full h-full object-cover'
-          />
+          <PreviewImage src={previewImage} alt={`${name} preview`} />
           <div className='absolute inset-0 bg-gradient-to-t from-[#050816]/75 via-[#050816]/10 to-transparent' />
           <div className='absolute inset-0 flex justify-end items-start m-3 card-img_hover'>
             {live_demo_link ? (
@@ -123,4 +134,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
