@@ -38,10 +38,10 @@ const services = [
     title: "AI/ML Product Builder",
     icon: backend,
   },
-  {
-    title: "Software Development",
-    icon: web,
-  },
+  // {
+  //   title: "Software Development",
+  //   icon: web,
+  // },
 ];
 
 const technologies = [
