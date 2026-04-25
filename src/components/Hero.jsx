@@ -19,12 +19,46 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Rahul Raj</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am currently pursuing my B.Sc. (Hons.) in Computer Science and
-            Data Analytics at IIT Patna,
+            Building AI systems that turn messy real-world data into
+            structured decisions.
             <br className="sm:block hidden" />
-            and I specialize in Frontend, Full-Stack, Software
-            Development, and AI-ML product builds with internship-ready impact.
+            IIT Patna (CSDA, CPI 9.74) | Frontend + Full-Stack + AI/ML
+            execution with product-first thinking.
           </p>
+
+          <div className="mt-5 flex flex-wrap items-center gap-3">
+            <span className="px-3 py-1 rounded-full bg-[#1f2142] text-[#d4d7f7] text-[12px] border border-white/10">
+              Proof-driven builder
+            </span>
+            <span className="px-3 py-1 rounded-full bg-[#1f2142] text-[#d4d7f7] text-[12px] border border-white/10">
+              Idea to deploy in days
+            </span>
+            <span className="px-3 py-1 rounded-full bg-[#1f2142] text-[#d4d7f7] text-[12px] border border-white/10">
+              AI + Product + Engineering
+            </span>
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a
+              href="#contact"
+              className="black-gradient px-5 py-2 rounded-lg text-white text-[14px] font-semibold"
+            >
+              Hire me for AI Internship
+            </a>
+            <a
+              href="mailto:rahulgupt1231@gmail.com"
+              className="px-5 py-2 rounded-lg border border-white/20 text-white text-[14px] font-semibold"
+            >
+              Book a Call
+            </a>
+            <a
+              href="/Rahul_updated_2026_IIT_Patna_Resume.pdf"
+              download
+              className="px-5 py-2 rounded-lg border border-white/20 text-white text-[14px] font-semibold"
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
 

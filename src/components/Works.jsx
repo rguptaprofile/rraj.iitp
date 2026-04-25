@@ -110,10 +110,13 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const featuredProject = projects[0];
+  const otherProjects = projects.slice(1);
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText} `}>Proof of work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
@@ -122,16 +125,62 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          a preview image, code repository link, and live output where
-          available. It reflects my ability to solve complex problems, work
-          with different technologies, and manage projects effectively.
+          These projects are selected to show execution quality, system
+          thinking, and product intent. I focus on solving practical
+          high-friction problems with deployable solutions, measurable
+          workflows, and clear ownership from idea to release.
         </motion.p>
       </div>
 
+      <div className='mt-6 flex flex-wrap gap-3'>
+        <span className='px-3 py-1 rounded-full border border-white/10 bg-[#11182d] text-[#d4d7f7] text-[12px]'>
+          Real-world problem framing
+        </span>
+        <span className='px-3 py-1 rounded-full border border-white/10 bg-[#11182d] text-[#d4d7f7] text-[12px]'>
+          Deployment-oriented builds
+        </span>
+        <span className='px-3 py-1 rounded-full border border-white/10 bg-[#11182d] text-[#d4d7f7] text-[12px]'>
+          Rapid execution
+        </span>
+      </div>
+
+      {featuredProject ? (
+        <div className='mt-10 rounded-2xl border border-white/10 bg-[#0d1328] p-6'>
+          <p className='text-[12px] uppercase tracking-[0.18em] text-[#9ea5d1]'>Featured Project</p>
+          <h3 className='text-white font-bold text-[26px] mt-2'>{featuredProject.name}</h3>
+          <p className='mt-3 text-secondary text-[15px] max-w-4xl'>{featuredProject.description}</p>
+          <p className='mt-2 text-[#c5c9ef] text-[13px]'>{featuredProject.run_output}</p>
+          <div className='mt-5 flex flex-wrap gap-3'>
+            {featuredProject.live_demo_link ? (
+              <button
+                type='button'
+                onClick={() => window.open(featuredProject.live_demo_link, "_blank")}
+                className='black-gradient px-4 py-2 rounded-lg text-white text-[13px] font-semibold'
+              >
+                View Live Demo
+              </button>
+            ) : null}
+            {featuredProject.source_code_link ? (
+              <button
+                type='button'
+                onClick={() => window.open(featuredProject.source_code_link, "_blank")}
+                className='px-4 py-2 rounded-lg border border-white/20 text-white text-[13px] font-semibold'
+              >
+                View Source Code
+              </button>
+            ) : null}
+            <a
+              href='#contact'
+              className='px-4 py-2 rounded-lg border border-white/20 text-white text-[13px] font-semibold'
+            >
+              Discuss This Build
+            </a>
+          </div>
+        </div>
+      ) : null}
+
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
+        {otherProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>

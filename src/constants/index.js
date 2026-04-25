@@ -95,9 +95,9 @@ const experiences = [
     iconBg: "#F3F4F6",
     date: "Apr 2025 - Jul 2025",
     points: [
-      "Built custom e-commerce workflows with authentication, product variants, cart, checkout, and order tracking.",
-      "Implemented JWT-based login, protected routes, and profile history modules in a production-style stack.",
-      "Contributed across frontend and backend to improve UX consistency and delivery speed.",
+      "Delivered core e-commerce workflows end-to-end: authentication, variants, cart, checkout, and order visibility in a production-style stack.",
+      "Implemented JWT authentication, protected routes, and profile-history modules to improve security and user trust.",
+      "Worked across frontend and backend to reduce handoff friction and ship features faster with consistent UX behavior.",
     ],
   },
   {
@@ -107,9 +107,9 @@ const experiences = [
     iconBg: "#F3F4F6",
     date: "Jan 2025 - Feb 2025",
     points: [
-      "Developed contact-book workflows with add, update, search, and validation features.",
-      "Improved CLI and interaction flow with clearer prompts and robust input handling.",
-      "Strengthened problem-solving and clean coding practices through weekly project deliveries.",
+      "Built a complete contact-book workflow with add, update, search, and validation logic focused on reliability.",
+      "Improved CLI interaction quality through better prompts, guardrails, and robust input handling for edge cases.",
+      "Maintained weekly delivery pace while improving code readability, modularity, and debugging discipline.",
     ],
   },
   {
@@ -119,9 +119,9 @@ const experiences = [
     iconBg: "#F3F4F6",
     date: "2024 - Present",
     points: [
-      "Built AI, full-stack, and frontend projects focused on practical use-cases and deployment readiness.",
-      "Maintained active coding footprint across GitHub, LeetCode, Unstop, Kaggle, and Quora.",
-      "Focused on stipend-based internship opportunities with PPO-oriented project quality.",
+      "Built AI, full-stack, and frontend systems around practical workflows with deployment-first engineering decisions.",
+      "Maintained a consistent public build trail across GitHub, LeetCode, Unstop, Kaggle, and Quora to show execution consistency.",
+      "Focused on internship-ready product quality with clear ownership from problem framing to implementation and delivery.",
     ],
   },
 ];
@@ -130,9 +130,9 @@ const projects = [
   {
     name: "SpicyToday - AI-Powered Social Media Platform",
     description:
-      "A full-stack AI-powered social media platform currently in development with real-time interaction and production-grade backend workflows.",
+      "AI-powered social platform engineered for real-time interactions, moderation-aware workflows, and scalable backend behavior.",
     run_output:
-      "Successfully built a production-ready social media backend with 30+ REST APIs, real-time messaging, and deployable architecture.",
+      "Built production-style backend with 30+ REST APIs, real-time messaging, and deployment-ready architecture for rapid iteration.",
     image: "/spicytoday-preview.svg",
     tags: [
       { name: "HTML5/CSS3/JavaScript", color: "text-orange-400" },
@@ -144,8 +144,8 @@ const projects = [
   },
   {
     name: "CyberGuardAI---AICybersecurity-Platform",
-    description: "The platform includes authentication, email security scanning, fraud detection, monitoring, and media verification tools.",
-    run_output: "Live output available at https://cyber-guard-ai-ai-cybersecurity-pla.vercel.app.",
+    description: "Cybersecurity product with authentication, email threat scanning, fraud signals, monitoring workflows, and media verification utilities.",
+    run_output: "Live product available with multi-module AI security workflows and practical dashboard-first usability.",
     tags: [
       { name: "TypeScript", color: "text-blue-400" },
       { name: "Original", color: "text-purple-400" },
@@ -156,8 +156,8 @@ const projects = [
   },
   {
     name: "docmentsintelligence",
-    description: "LLM-Powered Analysis Platform",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+    description: "LLM-powered analysis workflow for extracting usable insights from long-form documents.",
+    run_output: "Repository includes modular source for local execution and iterative model-driven analysis experiments.",
     tags: [
       { name: "TypeScript", color: "text-blue-400" },
       { name: "Original", color: "text-purple-400" },
@@ -168,8 +168,8 @@ const projects = [
   },
   {
     name: "fastchatin",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+    description: "Real-time communication-focused build emphasizing speed, clean interaction flow, and practical chat UX.",
+    run_output: "Source-first project designed for local execution with extensible architecture for messaging features.",
     tags: [
       { name: "TypeScript", color: "text-blue-400" },
       { name: "Original", color: "text-purple-400" },
@@ -180,8 +180,8 @@ const projects = [
   },
   {
     name: "FinGuru-AI-Your-Personal-Money-Mentor",
-    description: "Project repository from GitHub profile.",
-    run_output: "Live output available at https://fin-guru-ai-your-personal-money-men.vercel.app.",
+    description: "AI-driven finance mentor experience that helps users reason through money decisions with guided insights.",
+    run_output: "Live product demonstrates practical AI-assisted financial guidance through an end-user friendly interface.",
     tags: [
       { name: "Python", color: "text-green-400" },
       { name: "Original", color: "text-purple-400" },
@@ -193,8 +193,8 @@ const projects = [
   {
     name: "Generative-AI-for-Youth-Mental-Wellness",
     description:
-      "An AI-powered, confidential, and empathetic mental wellness solution for youth.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+      "Confidential and empathetic AI wellness workflow designed to support youth-centric emotional assistance journeys.",
+    run_output: "Project emphasizes trust-aware conversational design and can be executed locally for further product expansion.",
     tags: [
       { name: "TypeScript", color: "text-blue-400" },
       { name: "Original", color: "text-purple-400" },
@@ -206,8 +206,8 @@ const projects = [
   },
   {
     name: "Hotel-Management-System",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+    description: "Operational management system project covering core hotel workflows and structured data handling patterns.",
+    run_output: "Codebase highlights system-level problem decomposition and can be run locally for feature extension.",
     tags: [
       { name: "Java", color: "text-red-400" },
       { name: "Fork", color: "text-purple-400" },
@@ -218,8 +218,8 @@ const projects = [
   },
   {
     name: "NeuroScout---AI-powered-VC-Venture-Capital-scouting-system",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+    description: "AI-powered venture scouting workflow focused on filtering opportunities, signals, and early-stage evaluation support.",
+    run_output: "Repository provides a local-run foundation for data-driven investor support features and iteration.",
     tags: [
       { name: "TypeScript", color: "text-blue-400" },
       { name: "Original", color: "text-purple-400" },
@@ -231,8 +231,8 @@ const projects = [
   },
   {
     name: "PocketTerminal",
-    description: "Project repository from GitHub profile.",
-    run_output: "Live output available at https://pocket-terminal.vercel.app.",
+    description: "Web-based terminal experience focused on interaction fidelity, responsiveness, and developer-friendly command flow.",
+    run_output: "Live product demonstrates polished frontend execution with practical usability and responsive behavior.",
     tags: [
       { name: "JavaScript", color: "text-yellow-400" },
       { name: "Original", color: "text-purple-400" },
@@ -243,8 +243,8 @@ const projects = [
   },
   {
     name: "Quantum-Leapers_KDSH_2026",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+    description: "Competition-focused build showcasing rapid prototyping, team execution, and problem-solving under constraints.",
+    run_output: "Source project documents a local-run implementation suitable for iteration and challenge-driven improvement.",
     tags: [
       { name: "Python", color: "text-green-400" },
       { name: "Original", color: "text-purple-400" },
@@ -268,8 +268,8 @@ const projects = [
   {
     name: "Rahul-s-GPT---Personal-Assistant",
     description:
-      "This app is fully functional and responsive with a personal assistant use case.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+      "Responsive personal-assistant application with task-oriented conversational flow and practical user-focused functionality.",
+    run_output: "Fully functional local-run assistant project built for extensibility and iterative feature growth.",
     tags: [
       { name: "Python", color: "text-green-400" },
       { name: "Original", color: "text-purple-400" },
@@ -293,8 +293,8 @@ const projects = [
   // },
   {
     name: "SaarthiX",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+    description: "Product-oriented build from GitHub portfolio focused on structured implementation and practical delivery.",
+    run_output: "Repository is execution-ready for local runs and future module-level scaling.",
     tags: [
       { name: "TypeScript", color: "text-blue-400" },
       { name: "Original", color: "text-purple-400" },
@@ -306,8 +306,8 @@ const projects = [
   {
     name: "SANJEEVANI",
     description:
-      "AI-powered, confidential, and empathetic mental wellness solution that supports and guides youth.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+      "AI-guided wellness experience designed for confidential, empathetic support and youth-centered guidance pathways.",
+    run_output: "Local-run codebase focused on meaningful social impact use-cases and extensible mental-health workflows.",
     tags: [
       { name: "JavaScript", color: "text-yellow-400" },
       { name: "Original", color: "text-purple-400" },
@@ -318,8 +318,8 @@ const projects = [
   },
   {
     name: "skills-introduction-to-github",
-    description: "My clone repository",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+    description: "Foundational repository demonstrating version-control discipline, collaboration basics, and Git workflow fluency.",
+    run_output: "Useful as a process proof for clean GitHub operations and reproducible local execution.",
     tags: [
       { name: "General", color: "text-cyan-400" },
       { name: "Original", color: "text-purple-400" },
@@ -330,8 +330,8 @@ const projects = [
   },
   {
     name: "StockTrendAnalyzer",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
+    description: "Data-focused project for exploring stock movement patterns, trend behavior, and analytical signal interpretation.",
+    run_output: "Repository supports local experimentation for analytics workflows and model-led insights.",
     tags: [
       { name: "Python", color: "text-green-400" },
       { name: "Fork", color: "text-purple-400" },
