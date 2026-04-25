@@ -133,6 +133,16 @@ const projects = [
       "AI-powered social platform engineered for real-time interactions, moderation-aware workflows, and scalable backend behavior.",
     run_output:
       "Built production-style backend with 30+ REST APIs, real-time messaging, and deployment-ready architecture for rapid iteration.",
+    problem:
+      "Social products struggle to scale real-time communication and safe moderation together.",
+    solution:
+      "Built a modular AI-ready backend with real-time messaging, auth, and moderation-friendly APIs.",
+    tech_stack: "Python, Flask, MongoDB, Socket.IO, REST APIs",
+    impact:
+      "Production-style backend architecture with 30+ APIs and real-time messaging foundation.",
+    impact_note: "Core impact data is verified from implementation scope and repository outputs.",
+    architecture_link: "",
+    demo_video_link: "",
     image: "/spicytoday-preview.svg",
     tags: [
       { name: "HTML5/CSS3/JavaScript", color: "text-orange-400" },
@@ -146,6 +156,16 @@ const projects = [
     name: "CyberGuardAI---AICybersecurity-Platform",
     description: "Cybersecurity product with authentication, email threat scanning, fraud signals, monitoring workflows, and media verification utilities.",
     run_output: "Live product available with multi-module AI security workflows and practical dashboard-first usability.",
+    problem:
+      "Users and teams need one place to run practical AI-powered cyber checks across multiple threat surfaces.",
+    solution:
+      "Unified security workflows into a product with auth, scanning, fraud signals, and monitoring support.",
+    tech_stack: "TypeScript, AI APIs, Web stack, Deployment",
+    impact:
+      "Live deployable product validating end-to-end execution from feature concept to user-facing release.",
+    impact_note: "Usage scale metrics can be added once analytics snapshots are available.",
+    architecture_link: "",
+    demo_video_link: "",
     tags: [
       { name: "TypeScript", color: "text-blue-400" },
       { name: "Original", color: "text-purple-400" },
@@ -158,6 +178,16 @@ const projects = [
     name: "docmentsintelligence",
     description: "LLM-powered analysis workflow for extracting usable insights from long-form documents.",
     run_output: "Repository includes modular source for local execution and iterative model-driven analysis experiments.",
+    problem:
+      "Long policy and business documents are hard to process quickly and consistently.",
+    solution:
+      "Designed an LLM-driven analysis flow to convert unstructured text into actionable outputs.",
+    tech_stack: "TypeScript, LLM workflows, structured extraction",
+    impact:
+      "Improved decision-readiness by reducing manual interpretation steps for document-heavy tasks.",
+    impact_note: "Impact statement is workflow-level; quantified metrics can be added after benchmark runs.",
+    architecture_link: "",
+    demo_video_link: "",
     tags: [
       { name: "TypeScript", color: "text-blue-400" },
       { name: "Original", color: "text-purple-400" },
@@ -182,6 +212,16 @@ const projects = [
     name: "FinGuru-AI-Your-Personal-Money-Mentor",
     description: "AI-driven finance mentor experience that helps users reason through money decisions with guided insights.",
     run_output: "Live product demonstrates practical AI-assisted financial guidance through an end-user friendly interface.",
+    problem:
+      "Many users need simple, personalized financial guidance without high advisory friction.",
+    solution:
+      "Built an AI-assisted mentoring flow focused on clarity, action steps, and user-friendly interactions.",
+    tech_stack: "Python, AI-assisted logic, web interface",
+    impact:
+      "Live demo validates product usability and practical AI guidance experience for personal finance contexts.",
+    impact_note: "User and retention metrics can be appended from analytics when available.",
+    architecture_link: "",
+    demo_video_link: "",
     tags: [
       { name: "Python", color: "text-green-400" },
       { name: "Original", color: "text-purple-400" },
@@ -220,6 +260,16 @@ const projects = [
     name: "NeuroScout---AI-powered-VC-Venture-Capital-scouting-system",
     description: "AI-powered venture scouting workflow focused on filtering opportunities, signals, and early-stage evaluation support.",
     run_output: "Repository provides a local-run foundation for data-driven investor support features and iteration.",
+    problem:
+      "Early-stage opportunity screening is noisy and time-intensive for analysts and investors.",
+    solution:
+      "Implemented AI-assisted scouting workflows to structure signals for faster first-pass evaluation.",
+    tech_stack: "TypeScript, data pipelines, AI ranking logic",
+    impact:
+      "Creates a practical base for reducing manual screening load in venture decision workflows.",
+    impact_note: "Performance benchmarks can be added after dataset-backed evaluation cycles.",
+    architecture_link: "",
+    demo_video_link: "",
     tags: [
       { name: "TypeScript", color: "text-blue-400" },
       { name: "Original", color: "text-purple-400" },
@@ -308,6 +358,16 @@ const projects = [
     description:
       "AI-guided wellness experience designed for confidential, empathetic support and youth-centered guidance pathways.",
     run_output: "Local-run codebase focused on meaningful social impact use-cases and extensible mental-health workflows.",
+    problem:
+      "Youth users often need accessible and stigma-free first-line mental wellness support.",
+    solution:
+      "Built an empathetic AI-guided support flow with confidentiality-centered interaction design.",
+    tech_stack: "JavaScript, conversational AI flow, supportive UX",
+    impact:
+      "Provides a scalable prototype for social-impact oriented wellness guidance.",
+    impact_note: "Impact metrics can be expanded with pilot-user feedback and retention tracking.",
+    architecture_link: "",
+    demo_video_link: "",
     tags: [
       { name: "JavaScript", color: "text-yellow-400" },
       { name: "Original", color: "text-purple-400" },

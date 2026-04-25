@@ -47,14 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I build decision-focused software, not just demo apps. At IIT Patna
-        (CSDA, CPI 9.74), I specialize in AI/ML + full-stack execution where
-        each build starts from a real problem, ships to a usable product, and
-        is measured by clarity, reliability, and speed. My internship work
-        includes production-style authentication flows, checkout systems,
-        profile history modules, and automation-ready Python tooling. I enjoy
-        operating like a builder: frame the problem, design the system, ship
-        fast, and improve based on feedback.
+        Most student portfolios stop at project showcase. Mine is built as an
+        impact showcase focused on AI product execution. At IIT Patna (CSDA,
+        CPI 9.74), I combine strong fundamentals with startup-style delivery:
+        define the problem, build a practical system, deploy fast, and iterate
+        with measurable outcomes.
       </motion.p>
 
       <motion.div
@@ -68,6 +65,20 @@ const About = () => {
           Solution: LLM-guided extraction + retrieval + rule checks to generate
           structured outputs that teams can directly act on.
         </p>
+      </motion.div>
+
+      <motion.div
+        variants={fadeIn("", "", 0.25, 1)}
+        className="mt-6 max-w-4xl rounded-2xl border border-white/10 bg-[#11182d] p-5"
+      >
+        <p className="text-white font-semibold text-[16px]">Why Hire Me</p>
+        <ul className="mt-3 list-disc ml-5 space-y-2 text-secondary text-[14px] leading-[24px]">
+          <li>IIT Patna background with strong CS and analytics fundamentals.</li>
+          <li>AI + full-stack execution: from model logic to production-ready delivery.</li>
+          <li>Fast builder mindset: idea to working prototype in short cycles.</li>
+          <li>Product thinking: problem-first decisions, not just feature-first coding.</li>
+          <li>Public proof trail across GitHub and live deployments.</li>
+        </ul>
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-10">

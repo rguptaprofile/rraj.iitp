@@ -41,6 +41,13 @@ const ProjectCard = ({
   name,
   description,
   run_output,
+  problem,
+  solution,
+  tech_stack,
+  impact,
+  impact_note,
+  architecture_link,
+  demo_video_link,
   tags,
   image,
   source_code_link,
@@ -64,6 +71,17 @@ const ProjectCard = ({
           <p className='mt-2 text-[#b8b9d2] text-[12px]'>{run_output}</p>
         </div>
 
+        {(problem || solution || tech_stack || impact) ? (
+          <div className='mt-4 rounded-xl border border-white/10 bg-[#101833] p-3'>
+            <p className='text-[11px] uppercase tracking-[0.16em] text-[#9ea5d1]'>Case Study Snapshot</p>
+            {problem ? <p className='mt-2 text-[12px] text-[#d4d7f7]'><span className='font-semibold'>Problem:</span> {problem}</p> : null}
+            {solution ? <p className='mt-1 text-[12px] text-[#d4d7f7]'><span className='font-semibold'>Solution:</span> {solution}</p> : null}
+            {tech_stack ? <p className='mt-1 text-[12px] text-[#d4d7f7]'><span className='font-semibold'>Tech:</span> {tech_stack}</p> : null}
+            {impact ? <p className='mt-1 text-[12px] text-[#d4d7f7]'><span className='font-semibold'>Impact:</span> {impact}</p> : null}
+            {impact_note ? <p className='mt-1 text-[11px] text-[#aeb4dd]'>{impact_note}</p> : null}
+          </div>
+        ) : null}
+
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
@@ -83,6 +101,15 @@ const ProjectCard = ({
             <PreviewImage src={previewImage} alt={`${name} preview`} />
             <div className='absolute inset-0 bg-gradient-to-t from-[#050816]/75 via-[#050816]/10 to-transparent' />
             <div className='absolute inset-0 flex justify-end items-start m-3 card-img_hover'>
+              {demo_video_link ? (
+                <button
+                  type='button'
+                  onClick={() => window.open(demo_video_link, "_blank")}
+                  className='black-gradient px-3 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2 text-white text-[12px]'
+                >
+                  Demo
+                </button>
+              ) : null}
               {live_demo_link ? (
                 <button
                   type='button'
@@ -104,6 +131,17 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
+
+        {architecture_link ? (
+          <a
+            href={architecture_link}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='mt-3 inline-block text-[12px] text-[#9cc3ff] underline underline-offset-2'
+          >
+            View Architecture Diagram
+          </a>
+        ) : null}
       </Tilt>
     </motion.div>
   );
@@ -131,10 +169,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          These projects are selected to show execution quality, system
-          thinking, and product intent. I focus on solving practical
-          high-friction problems with deployable solutions, measurable
-          workflows, and clear ownership from idea to release.
+          This section is intentionally product-first, not a generic project
+          gallery. Each build is framed as a compact case study with problem,
+          solution, tech stack, and impact signal so hiring teams can quickly
+          evaluate execution quality.
         </motion.p>
       </div>
 
@@ -142,9 +180,8 @@ const Works = () => {
         variants={fadeIn("", "", 0.15, 1)}
         className='mt-3 text-[#c5c9ef] text-[14px] max-w-4xl leading-[26px]'
       >
-        Recruiter hook in one line: I do not just build projects, I build
-        deployable AI-first products with clear engineering ownership and
-        measurable delivery signals.
+        Recruiter hook in one line: I build AI products end-to-end with clear
+        ownership, fast execution, and proof-oriented delivery.
       </motion.p>
 
       <div className='mt-6 flex flex-wrap gap-3'>
@@ -187,12 +224,26 @@ const Works = () => {
           <h3 className='text-white font-bold text-[26px] mt-2'>{featuredProject.name}</h3>
           <p className='mt-3 text-secondary text-[15px] max-w-4xl'>{featuredProject.description}</p>
           <p className='mt-2 text-[#c5c9ef] text-[13px]'>{featuredProject.run_output}</p>
+          {featuredProject.problem ? <p className='mt-3 text-[13px] text-[#d4d7f7]'><span className='font-semibold'>Problem:</span> {featuredProject.problem}</p> : null}
+          {featuredProject.solution ? <p className='mt-1 text-[13px] text-[#d4d7f7]'><span className='font-semibold'>Solution:</span> {featuredProject.solution}</p> : null}
+          {featuredProject.tech_stack ? <p className='mt-1 text-[13px] text-[#d4d7f7]'><span className='font-semibold'>Tech:</span> {featuredProject.tech_stack}</p> : null}
+          {featuredProject.impact ? <p className='mt-1 text-[13px] text-[#d4d7f7]'><span className='font-semibold'>Impact:</span> {featuredProject.impact}</p> : null}
+          {featuredProject.impact_note ? <p className='mt-1 text-[11px] text-[#aeb4dd]'>{featuredProject.impact_note}</p> : null}
           <div className='mt-4 flex flex-wrap gap-2'>
             <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>AI agent-ready architecture</span>
             <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>SaaS-scale backend foundation</span>
             <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>Built for real usage and iteration</span>
           </div>
           <div className='mt-5 flex flex-wrap gap-3'>
+            {featuredProject.demo_video_link ? (
+              <button
+                type='button'
+                onClick={() => window.open(featuredProject.demo_video_link, "_blank")}
+                className='black-gradient px-4 py-2 rounded-lg text-white text-[13px] font-semibold'
+              >
+                Watch Demo Video
+              </button>
+            ) : null}
             {featuredProject.live_demo_link ? (
               <button
                 type='button'
@@ -217,6 +268,16 @@ const Works = () => {
             >
               Discuss This Build
             </a>
+            {featuredProject.architecture_link ? (
+              <a
+                href={featuredProject.architecture_link}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='px-4 py-2 rounded-lg border border-white/20 text-white text-[13px] font-semibold'
+              >
+                View Architecture
+              </a>
+            ) : null}
           </div>
         </div>
       ) : null}
