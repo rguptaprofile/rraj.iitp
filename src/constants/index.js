@@ -31,7 +31,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Full-Stack MERN Developer",
+    title: "Full-Stack  Developer",
     icon: mobile,
   },
   {
