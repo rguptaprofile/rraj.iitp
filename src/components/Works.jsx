@@ -112,6 +112,12 @@ const ProjectCard = ({
 const Works = () => {
   const featuredProject = projects[0];
   const otherProjects = projects.slice(1);
+  const liveProjectsCount = projects.filter((project) => project.live_demo_link).length;
+  const publicReposCount = projects.filter((project) => project.source_code_link).length;
+  const aiFocusedCount = projects.filter((project) => {
+    const text = `${project.name} ${project.description} ${project.run_output}`.toLowerCase();
+    return /ai|llm|agent|ml|intelligence|cyber/.test(text);
+  }).length;
 
   return (
     <>
@@ -132,6 +138,15 @@ const Works = () => {
         </motion.p>
       </div>
 
+      <motion.p
+        variants={fadeIn("", "", 0.15, 1)}
+        className='mt-3 text-[#c5c9ef] text-[14px] max-w-4xl leading-[26px]'
+      >
+        Recruiter hook in one line: I do not just build projects, I build
+        deployable AI-first products with clear engineering ownership and
+        measurable delivery signals.
+      </motion.p>
+
       <div className='mt-6 flex flex-wrap gap-3'>
         <span className='px-3 py-1 rounded-full border border-white/10 bg-[#11182d] text-[#d4d7f7] text-[12px]'>
           Real-world problem framing
@@ -144,12 +159,39 @@ const Works = () => {
         </span>
       </div>
 
+      <div className='mt-6 rounded-2xl border border-white/10 bg-[#101833] p-5'>
+        <p className='text-[12px] uppercase tracking-[0.16em] text-[#9ea5d1]'>Proof of Impact</p>
+        <div className='mt-3 flex flex-wrap gap-3'>
+          <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>
+            {liveProjectsCount}+ live demos shipped
+          </span>
+          <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>
+            {publicReposCount}+ public repositories
+          </span>
+          <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>
+            {aiFocusedCount}+ AI-focused builds
+          </span>
+          <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>
+            30+ REST APIs delivered (SpicyToday backend)
+          </span>
+        </div>
+        <p className='mt-3 text-[#aeb4dd] text-[12px]'>
+          Add your verified scale metrics for stronger shortlisting: requests handled,
+          latency improvement, and active users.
+        </p>
+      </div>
+
       {featuredProject ? (
         <div className='mt-10 rounded-2xl border border-white/10 bg-[#0d1328] p-6'>
-          <p className='text-[12px] uppercase tracking-[0.18em] text-[#9ea5d1]'>Featured Project</p>
+          <p className='text-[12px] uppercase tracking-[0.18em] text-[#9ea5d1]'>WOW Project | Featured Build</p>
           <h3 className='text-white font-bold text-[26px] mt-2'>{featuredProject.name}</h3>
           <p className='mt-3 text-secondary text-[15px] max-w-4xl'>{featuredProject.description}</p>
           <p className='mt-2 text-[#c5c9ef] text-[13px]'>{featuredProject.run_output}</p>
+          <div className='mt-4 flex flex-wrap gap-2'>
+            <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>AI agent-ready architecture</span>
+            <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>SaaS-scale backend foundation</span>
+            <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>Built for real usage and iteration</span>
+          </div>
           <div className='mt-5 flex flex-wrap gap-3'>
             {featuredProject.live_demo_link ? (
               <button
