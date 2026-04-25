@@ -61,7 +61,7 @@ const technologies = [
   { name: "MLOps", icon: "https://cdn.simpleicons.org/mlflow" },
   { name: "Model Deployment", icon: "https://cdn.simpleicons.org/kubernetes" },
   { name: "Python (Advanced)", icon: "https://cdn.simpleicons.org/python" },
-  { name: "DSA", icon: "https://cdn.simpleicons.org/leetcode" },
+  // { name: "DSA", icon: "https://cdn.simpleicons.org/leetcode" },
   // { name: "C++ (Intermediate)", icon: "https://cdn.simpleicons.org/cplusplus" },
   { name: "JavaScript (Intermediate)", icon: javascript },
   { name: "Version Control", icon: git },
@@ -78,11 +78,11 @@ const technologies = [
   { name: "Teamwork", icon: "https://api.iconify.design/mdi/account-group-outline.svg" },
   { name: "Adaptability", icon: "https://api.iconify.design/mdi/autorenew.svg" },
   { name: "Leadership", icon: "https://api.iconify.design/mdi/crown-outline.svg" },
-  { name: "Data Structures & Algorithms", icon: "https://cdn.simpleicons.org/leetcode" },
-  { name: "OOP", icon: "https://api.iconify.design/mdi/shape-plus.svg" },
+  // { name: "Data Structures & Algorithms", icon: "https://cdn.simpleicons.org/leetcode" },
+  // { name: "OOP", icon: "https://api.iconify.design/mdi/shape-plus.svg" },
   { name: "Web Development", icon: html },
   { name: "Data Analytics", icon: "https://cdn.simpleicons.org/pandas" },
-  { name: "Cloud Computing", icon: "https://cdn.simpleicons.org/googlecloud" },
+  // { name: "Cloud Computing", icon: "https://cdn.simpleicons.org/googlecloud" },
   { name: "Software Development", icon: "https://api.iconify.design/mdi/code-tags.svg" },
   
 ];
