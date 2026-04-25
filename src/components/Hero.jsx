@@ -22,7 +22,7 @@ const Hero = () => {
             I am currently pursuing my B.Sc. (Hons.) in Computer Science and
             Data Analytics at IIT Patna,
             <br className="sm:block hidden" />
-            and I specialize in Frontend, Full-Stack (MERN), Software
+            and I specialize in Frontend, Full-Stack, Software
             Development, and AI-ML product builds with internship-ready impact.
           </p>
         </div>
