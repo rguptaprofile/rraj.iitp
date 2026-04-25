@@ -143,30 +143,6 @@ const projects = [
     live_demo_link: "",
   },
   {
-    name: "Amazon-Clone",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
-    tags: [
-      { name: "HTML", color: "text-orange-400" },
-      { name: "Original", color: "text-purple-400" },
-      { name: "GitHub", color: "text-cyan-400" },
-    ],
-    source_code_link: "https://github.com/rguptaprofile/Amazon-Clone",
-    live_demo_link: "",
-  },
-  {
-    name: "contact-book",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
-    tags: [
-      { name: "C++", color: "text-indigo-400" },
-      { name: "Original", color: "text-purple-400" },
-      { name: "GitHub", color: "text-cyan-400" },
-    ],
-    source_code_link: "https://github.com/rguptaprofile/contact-book",
-    live_demo_link: "",
-  },
-  {
     name: "CyberGuardAI---AICybersecurity-Platform",
     description: "The platform includes authentication, email security scanning, fraud detection, monitoring, and media verification tools.",
     run_output: "Live output available at https://cyber-guard-ai-ai-cybersecurity-pla.vercel.app.",
@@ -241,18 +217,6 @@ const projects = [
     live_demo_link: "",
   },
   {
-    name: "kbc-game",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
-    tags: [
-      { name: "C++", color: "text-indigo-400" },
-      { name: "Original", color: "text-purple-400" },
-      { name: "GitHub", color: "text-cyan-400" },
-    ],
-    source_code_link: "https://github.com/rguptaprofile/kbc-game",
-    live_demo_link: "",
-  },
-  {
     name: "NeuroScout---AI-powered-VC-Venture-Capital-scouting-system",
     description: "Project repository from GitHub profile.",
     run_output: "No hosted output link on GitHub; run locally from source code.",
@@ -289,18 +253,6 @@ const projects = [
     source_code_link: "https://github.com/rguptaprofile/Quantum-Leapers_KDSH_2026",
     live_demo_link: "",
   },
-  {
-    name: "Quiz-App",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
-    tags: [
-      { name: "JavaScript", color: "text-yellow-400" },
-      { name: "Original", color: "text-purple-400" },
-      { name: "GitHub", color: "text-cyan-400" },
-    ],
-    source_code_link: "https://github.com/rguptaprofile/Quiz-App",
-    live_demo_link: "",
-  },
   // {
   //   name: "rahul-professioal-portfolio",
   //   description: "This is my professional Profile or Portfolio.",
@@ -325,18 +277,6 @@ const projects = [
     ],
     source_code_link:
       "https://github.com/rguptaprofile/Rahul-s-GPT---Personal-Assistant",
-    live_demo_link: "",
-  },
-  {
-    name: "Rock-Paper-Scissors-Game",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
-    tags: [
-      { name: "C++", color: "text-indigo-400" },
-      { name: "Original", color: "text-purple-400" },
-      { name: "GitHub", color: "text-cyan-400" },
-    ],
-    source_code_link: "https://github.com/rguptaprofile/Rock-Paper-Scissors-Game",
     live_demo_link: "",
   },
   // {
@@ -398,18 +338,6 @@ const projects = [
       { name: "GitHub", color: "text-cyan-400" },
     ],
     source_code_link: "https://github.com/rguptaprofile/StockTrendAnalyzer",
-    live_demo_link: "",
-  },
-  {
-    name: "Stopwatch",
-    description: "Project repository from GitHub profile.",
-    run_output: "No hosted output link on GitHub; run locally from source code.",
-    tags: [
-      { name: "JavaScript", color: "text-yellow-400" },
-      { name: "Original", color: "text-purple-400" },
-      { name: "GitHub", color: "text-cyan-400" },
-    ],
-    source_code_link: "https://github.com/rguptaprofile/Stopwatch",
     live_demo_link: "",
   },
 ];
