@@ -22,7 +22,7 @@ const Hero = () => {
             Building AI systems that turn messy real-world data into
             structured decisions.
             <br className="sm:block hidden" />
-            I'm a student at IIT Patna (B.Sc. in CSDA, CPI 9.74) | I'm a Frontend Developer + Full-Stack developer+ AI/ML Engineer
+            I'm a student at IIT Patna (B.Sc. in CSDA, CPI - 9.74) | I'm a Frontend Developer + Full-Stack developer+ AI/ML Engineer
             execution with product-first thinking.
           </p>
 
