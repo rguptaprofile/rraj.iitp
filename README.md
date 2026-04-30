@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://sachin-raj-portfolio-lxf7.vercel.app/" target="_blank">sachinraj.tech</a>
+  <a https://rraj-iitp.vercel.app/" target="_blank">Rahul Raj.tech</a>
 </h2>
 <div align="center">
 <!-- <<<<<<< HEAD
@@ -8,7 +8,7 @@
 ======= -->
 <!--  ## Portfolio Screenshot -->
 
-![Portfolio Screenshot](https://github.com/schnrj/Sachin_Raj_Portfolio/blob/main/images/Portf.jpg)
+![Portfolio Screenshot]()
 
 
 
@@ -36,11 +36,11 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [schnrj](https://github.com/schnrj/Sachin_Raj_Portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [schnrj](https://github.com/rguptaprofile/rraj.iitp). Thanks!
 
 ## Built With
 
-<a href="https://sachin-raj-portfolio-lxf7.vercel.app/" target="_blank" style="text-decoration: none; color: #1E90FF; font-weight: bold;">My personal portfolio</a>
+<a href="https://rraj-iitp.vercel.app/" target="_blank" style="text-decoration: none; color: #1E90FF; font-weight: bold;">My personal portfolio</a>
 
 
 This project was built using these technologies.
