@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src="/favicon.ico" alt="Rahul Raj logo" className="w-9 h-9 rounded-full object-cover" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Rahul Raj &nbsp;
-            <span className="sm:block hidden"> | Software Developer</span>
+            <span className="sm:block hidden"> | Full-Stack Developer</span>
           </p>
         </Link>
 
