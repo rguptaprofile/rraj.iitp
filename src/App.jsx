@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 // import { findDOMNode } from 'react-dom';
 
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, AIDepth, InstantTrust } from "./components";
 
 const App = () => {
   return (
@@ -15,7 +15,9 @@ const App = () => {
         </div>
         <About />
         <Tech />
+        <InstantTrust />
         <Works />
+        <AIDepth />
         <Experience />
         <Feedbacks />
         <div className='relative z-0'>

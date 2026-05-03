@@ -8,6 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import AIDepth from "./AIDepth";
+import InstantTrust from "./InstantTrust";
 
 
 export {
@@ -20,6 +22,8 @@ export {
   Feedbacks,
   Contact,
   CanvasLoader,
+  AIDepth,
+  InstantTrust,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
