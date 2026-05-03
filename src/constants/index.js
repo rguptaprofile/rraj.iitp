@@ -194,7 +194,7 @@ const projects = [
       { name: "GitHub", color: "text-cyan-400" },
     ],
     source_code_link: "https://github.com/rguptaprofile/docmentsintelligence",
-    live_demo_link: "",
+    live_demo_link: "https://documentsintelligence.netlify.app/",
   },
   {
     name: "fastchatin",
