@@ -133,7 +133,7 @@ const projects = [
       { name: "LLM", color: "text-purple-400" },
     ],
     source_code_link: "https://github.com/rguptaprofile/docmentsintelligence",
-    live_demo_link: "",
+    live_demo_link: "https://vercel.com/rguptaprofiles-projects/docmentsintelligence",
   },
   {
     name: "SentinelAI - AI Fraud & Public Safety Intelligence Platform",
@@ -156,8 +156,8 @@ const projects = [
       { name: "FastAPI", color: "text-green-400" },
       { name: "MongoDB", color: "text-cyan-400" },
     ],
-    source_code_link: "",
-    live_demo_link: "",
+    source_code_link: "https://github.com/rguptaprofile/Sentinel-AI",
+    live_demo_link: "https://sentinel-in.vercel.app/",
   },
   {
     name: "PocketTerminal - Remote Laptop Control Platform",
@@ -204,8 +204,8 @@ const projects = [
       { name: "MySQL", color: "text-blue-400" },
       { name: "OpenAI", color: "text-purple-400" },
     ],
-    source_code_link: "",
-    live_demo_link: "",
+    source_code_link: "https://github.com/rguptaprofile/NomadBihari",
+    live_demo_link: "https://nomad-bihari.vercel.app/",
   },
 ];
 
