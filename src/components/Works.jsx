@@ -154,7 +154,7 @@ const Works = () => {
   const publicReposCount = projects.filter((project) => project.source_code_link).length;
   const aiFocusedCount = projects.filter((project) => {
     const text = `${project.name} ${project.description} ${project.run_output}`.toLowerCase();
-    return /ai|llm|agent|ml|intelligence|cyber/.test(text);
+    return /ai|llm|agent|ml|intelligence|document|fraud|terminal|blog/.test(text);
   }).length;
 
   return (
@@ -169,7 +169,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          This section is intentionally product-first, not a generic project
+          This section is intentionally resume-aligned, not a generic project
           gallery. Each build is framed as a compact case study with problem,
           solution, tech stack, and impact signal so hiring teams can quickly
           evaluate execution quality.
@@ -180,8 +180,8 @@ const Works = () => {
         variants={fadeIn("", "", 0.15, 1)}
         className='mt-3 text-[#c5c9ef] text-[14px] max-w-4xl leading-[26px]'
       >
-        Recruiter hook in one line: I build AI products end-to-end with clear
-        ownership, fast execution, and proof-oriented delivery.
+        Recruiter hook in one line: I build software end-to-end across internships,
+        hackathons, and public repositories with clear ownership and fast execution.
       </motion.p>
 
       <div className='mt-6 flex flex-wrap gap-3'>
@@ -209,12 +209,12 @@ const Works = () => {
             {aiFocusedCount}+ AI-focused builds
           </span>
           <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>
-            30+ REST APIs delivered (SpicyToday backend)
+            Resume-backed internships + hackathon delivery
           </span>
         </div>
         <p className='mt-3 text-[#aeb4dd] text-[12px]'>
-          Add your verified scale metrics for stronger shortlisting: requests handled,
-          latency improvement, and active users.
+          Add verified scale metrics later if you want to highlight requests handled,
+          latency improvement, or active users.
         </p>
       </div>
 
@@ -230,9 +230,9 @@ const Works = () => {
           {featuredProject.impact ? <p className='mt-1 text-[13px] text-[#d4d7f7]'><span className='font-semibold'>Impact:</span> {featuredProject.impact}</p> : null}
           {featuredProject.impact_note ? <p className='mt-1 text-[11px] text-[#aeb4dd]'>{featuredProject.impact_note}</p> : null}
           <div className='mt-4 flex flex-wrap gap-2'>
-            <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>AI agent-ready architecture</span>
-            <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>SaaS-scale backend foundation</span>
-            <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>Built for real usage and iteration</span>
+            <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>Resume-featured project</span>
+            <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>Built for real workflows</span>
+            <span className='px-3 py-1 rounded-full border border-white/10 bg-[#141e3f] text-[#d4d7f7] text-[12px]'>Product + engineering focus</span>
           </div>
           <div className='mt-5 flex flex-wrap gap-3'>
             {featuredProject.demo_video_link ? (

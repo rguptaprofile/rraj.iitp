@@ -19,17 +19,15 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Rahul Raj</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Building AI systems that turn messy real-world data into
+            Building practical software and AI systems that turn messy real-world data into
             structured decisions.
             <br className="sm:block hidden" />
-            IIT Patna (B.Sc. CSDA, CPI 9.74) | I'm a Full-Stack +
-            AI/ML engineering with product-first execution.
+            IIT Patna (B.Sc. Hons. CSDA, CPI 9.74) | Full-Stack, backend, and AI/ML builder with product-first execution.
           </p>
 
           <p className="mt-3 text-[#c5c9ef] text-[13px] max-w-3xl leading-[22px]">
-            Why hire me over others: I combine AI depth, full-stack shipping,
-            and rapid execution to turn ambiguous ideas into deployable
-            products.
+            Why hire me over others: I combine internship experience, full-stack shipping,
+            and rapid execution to turn ambiguous ideas into deployable products.
           </p>
 
           <div className="mt-5 flex flex-wrap items-center gap-3">
@@ -49,7 +47,7 @@ const Hero = () => {
               href="#contact"
               className="black-gradient px-5 py-2 rounded-lg text-white text-[14px] font-semibold"
             >
-              Hire me for AI Internship
+              Hire me for Internship
             </a>
             <a
               href="mailto:rahulgupt1231@gmail.com"

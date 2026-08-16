@@ -48,10 +48,11 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Most student portfolios stop at project showcase. Mine is built as an
-        impact showcase focused on AI product execution. At IIT Patna (CSDA,
-        CPI 9.74), I combine strong fundamentals with startup-style delivery:
-        define the problem, build a practical system, deploy fast, and iterate
-        with measurable outcomes.
+        impact showcase focused on practical software delivery. At IIT Patna
+        (B.Sc. Hons. in Computer Science and Data Analytics, CPI 9.74), I
+        combine strong fundamentals with startup-style execution: define the
+        problem, build a practical system, deploy fast, and iterate with
+        measurable outcomes.
       </motion.p>
 
       <motion.div
@@ -60,24 +61,37 @@ const About = () => {
       >
         <p className="text-white font-semibold text-[16px]">What I&apos;m Building Now</p>
         <p className="mt-2 text-secondary text-[14px] leading-[26px]">
-          Agentic AI decision engine for unstructured documents.
-          Problem: policy and operational docs are hard to query at speed.
-          Solution: LLM-guided extraction + retrieval + rule checks to generate
-          structured outputs that teams can directly act on.
+          LLM-guided document intelligence and full-stack workflows.
+          Problem: policy, business, and case documents are hard to query at speed.
+          Solution: structured upload, retrieval, and analysis workflows that turn
+          unstructured text into usable outputs.
         </p>
       </motion.div>
 
       <motion.div
-        variants={fadeIn("", "", 0.25, 1)}
+        variants={fadeIn("", "", 0.23, 1)}
+        className="mt-6 max-w-4xl rounded-2xl border border-white/10 bg-[#11182d] p-5"
+      >
+        <p className="text-white font-semibold text-[16px]">Positions &amp; Achievements</p>
+        <ul className="mt-3 list-disc ml-5 space-y-2 text-secondary text-[14px] leading-[24px]">
+          <li>Tech Coordinator, Vaani - The Oratory Society, IIT Patna (2025 - Present).</li>
+          <li>SSM, Mood Indigo &amp; Techfest, IIT Bombay and SSM, E-Cell, IIT Guwahati.</li>
+          <li>Common Internship Test (CIP): Rank 1495 among 18,000 participants in 2025.</li>
+          <li>Google Gen AI Academy certified and Bajaj Finserv HackRx 6.0 project contributor.</li>
+        </ul>
+      </motion.div>
+
+      <motion.div
+        variants={fadeIn("", "", 0.28, 1)}
         className="mt-6 max-w-4xl rounded-2xl border border-white/10 bg-[#11182d] p-5"
       >
         <p className="text-white font-semibold text-[16px]">Why Hire Me</p>
         <ul className="mt-3 list-disc ml-5 space-y-2 text-secondary text-[14px] leading-[24px]">
           <li>IIT Patna background with strong CS and analytics fundamentals.</li>
-          <li>AI + full-stack execution: from model logic to production-ready delivery.</li>
+          <li>Web, backend, and product delivery across internships, hackathons, and public repositories.</li>
           <li>Fast builder mindset: idea to working prototype in short cycles.</li>
           <li>Product thinking: problem-first decisions, not just feature-first coding.</li>
-          <li>Public proof trail across GitHub and live deployments.</li>
+          <li>Public proof trail across GitHub, LinkedIn, and live deployments.</li>
         </ul>
       </motion.div>
 

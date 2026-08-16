@@ -78,7 +78,7 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Profiles</h3>
 
         <div className="mt-5 rounded-xl border border-white/10 bg-[#11182d] p-4">
-          <p className="text-white text-[15px] font-semibold">Open to AI/ML and Product Engineering internships</p>
+          <p className="text-white text-[15px] font-semibold">Open to Software Development, Full-Stack, and AI/ML roles</p>
           <p className="mt-2 text-secondary text-[13px]">
             Best contact: rahulgupt1231@gmail.com | Fastest response on LinkedIn or email.
           </p>
@@ -87,7 +87,7 @@ const Contact = () => {
               href="mailto:rahulgupt1231@gmail.com"
               className="black-gradient px-4 py-2 rounded-lg text-white text-[13px] font-semibold"
             >
-              Hire me for AI Internship
+              Hire me for Internship
             </a>
             <a
               href="/Rahul_updated_2026_IIT_Patna_Resume.pdf"
