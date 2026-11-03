@@ -77,12 +77,17 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Connect with Me</p>
         <h3 className={styles.sectionHeadText}>Profiles</h3>
 
-        <div className="mt-5 rounded-xl border border-white/10 bg-[#11182d] p-4">
-          <p className="text-white text-[15px] font-semibold">Open to Software Development, Full-Stack, and AI/ML roles</p>
-          <p className="mt-2 text-secondary text-[13px]">
-            Best contact: rahulgupt1231@gmail.com | Fastest response on LinkedIn or email.
+        <div className="mt-5 rounded-xl border border-white/10 bg-[#11182d] p-5">
+          <p className="text-white text-[16px] font-semibold">Open to Software Development, Full-Stack, and AI/ML Opportunities</p>
+          <p className="mt-1 text-[#94a3b8] text-[13px]">
+            Indian Institute of Technology, Patna (Roll No: UA2503CDH466)
           </p>
-          <div className="mt-3 flex flex-wrap gap-3">
+          <div className="mt-3 flex flex-wrap gap-y-2 gap-x-5 text-secondary text-[13px]">
+            <span>📧 <strong className="text-white">Email:</strong> <a href="mailto:rahulgupt1231@gmail.com" className="text-[#38bdf8] hover:underline">rahulgupt1231@gmail.com</a></span>
+            <span>🎓 <strong className="text-white">IITP:</strong> <a href="mailto:rahul_ua2503cdh466@iitp.ac.in" className="text-[#38bdf8] hover:underline">rahul_ua2503cdh466@iitp.ac.in</a></span>
+            <span>📱 <strong className="text-white">Phone:</strong> <a href="tel:+916209980667" className="text-[#4ade80] hover:underline">+91-6209980667</a></span>
+          </div>
+          <div className="mt-4 flex flex-wrap gap-3">
             <a
               href="mailto:rahulgupt1231@gmail.com"
               className="black-gradient px-4 py-2 rounded-lg text-white text-[13px] font-semibold"
@@ -91,8 +96,8 @@ const Contact = () => {
             </a>
             <a
               href="/Rahul_updated_2026_IIT_Patna_Resume.pdf"
-              download
-              className="px-4 py-2 rounded-lg border border-white/20 text-white text-[13px] font-semibold"
+              download="Rahul_Raj_Resume.pdf"
+              className="px-4 py-2 rounded-lg border border-white/20 text-white text-[13px] font-semibold hover:bg-white/5 transition"
             >
               Download Resume
             </a>
@@ -170,7 +175,7 @@ const Contact = () => {
           {/* Resume Options */}
           <a
             href="/Rahul_updated_2026_IIT_Patna_Resume.pdf"
-            download
+            download="Rahul_Raj_Resume.pdf"
             className="flex flex-col items-center justify-center gap-2 bg-tertiary p-6 rounded-lg shadow-md shadow-primary transition-transform transform hover:scale-105"
           >
             <HiOutlineDocumentText size={40} className="text-white" />

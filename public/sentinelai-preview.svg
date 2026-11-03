@@ -1,0 +1,89 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070a14"/>
+      <stop offset="50%" stop-color="#0b132b"/>
+      <stop offset="100%" stop-color="#1c1438"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="200" cy="150" r="180" fill="#38bdf8" fill-opacity="0.12"/>
+  <circle cx="1020" cy="580" r="240" fill="#818cf8" fill-opacity="0.12"/>
+  
+  <rect x="60" y="60" width="1080" height="600" rx="24" fill="#0f172a" fill-opacity="0.75" stroke="#334155" stroke-width="2"/>
+  
+  <rect x="96" y="96" width="180" height="38" rx="19" fill="#1e293b" stroke="#475569"/>
+  <text x="116" y="121" fill="#38bdf8" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700">PUBLIC SAFETY AI</text>
+  
+  <text x="96" y="195" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="800">SentinelAI Platform</text>
+  <text x="96" y="240" fill="#94a3b8" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="500">AI Fraud &amp; Public Safety Intelligence — Digital Arrest, Counterfeit &amp; Coordinated Crime</text>
+  
+  <!-- Tech badges -->
+  <g transform="translate(96 270)">
+    <rect width="90" height="32" rx="16" fill="#1e293b"/>
+    <text x="18" y="21" fill="#60a5fa" font-family="Inter, system-ui" font-size="14" font-weight="600">React.js</text>
+  </g>
+  <g transform="translate(196 270)">
+    <rect width="84" height="32" rx="16" fill="#1e293b"/>
+    <text x="16" y="21" fill="#4ade80" font-family="Inter, system-ui" font-size="14" font-weight="600">FastAPI</text>
+  </g>
+  <g transform="translate(290 270)">
+    <rect width="100" height="32" rx="16" fill="#1e293b"/>
+    <text x="16" y="21" fill="#34d399" font-family="Inter, system-ui" font-size="14" font-weight="600">MongoDB</text>
+  </g>
+  <g transform="translate(400 270)">
+    <rect width="130" height="32" rx="16" fill="#1e293b"/>
+    <text x="16" y="21" fill="#c084fc" font-family="Inter, system-ui" font-size="14" font-weight="600">Fraud-Graph AI</text>
+  </g>
+  <g transform="translate(540 270)">
+    <rect width="145" height="32" rx="16" fill="#1e293b"/>
+    <text x="16" y="21" fill="#f472b6" font-family="Inter, system-ui" font-size="14" font-weight="600">Risk Assessment</text>
+  </g>
+
+  <!-- Metric / Feature Cards -->
+  <g transform="translate(96 340)">
+    <rect width="235" height="150" rx="18" fill="#1e293b" fill-opacity="0.8" stroke="#334155"/>
+    <text x="24" y="45" fill="#f87171" font-family="Inter, system-ui" font-size="28" font-weight="800">Scam Shield</text>
+    <text x="24" y="80" fill="#f1f5f9" font-family="Inter, system-ui" font-size="16" font-weight="600">Phishing &amp; Fraud Detection</text>
+    <text x="24" y="112" fill="#94a3b8" font-family="Inter, system-ui" font-size="13">NLP scan of suspicious texts, calls &amp; digital arrest schemes</text>
+  </g>
+  
+  <g transform="translate(355 340)">
+    <rect width="235" height="150" rx="18" fill="#1e293b" fill-opacity="0.8" stroke="#334155"/>
+    <text x="24" y="45" fill="#38bdf8" font-family="Inter, system-ui" font-size="28" font-weight="800">Risk Scoring</text>
+    <text x="24" y="80" fill="#f1f5f9" font-family="Inter, system-ui" font-size="16" font-weight="600">Actionable Assessment</text>
+    <text x="24" y="112" fill="#94a3b8" font-family="Inter, system-ui" font-size="13">Dynamically calculates threat scores per complaint</text>
+  </g>
+
+  <g transform="translate(614 340)">
+    <rect width="235" height="150" rx="18" fill="#1e293b" fill-opacity="0.8" stroke="#334155"/>
+    <text x="24" y="45" fill="#4ade80" font-family="Inter, system-ui" font-size="28" font-weight="800">Role-Based</text>
+    <text x="24" y="80" fill="#f1f5f9" font-family="Inter, system-ui" font-size="16" font-weight="600">Citizen + Police + Bank</text>
+    <text x="24" y="112" fill="#94a3b8" font-family="Inter, system-ui" font-size="13">Unified workflows connecting victims with responders</text>
+  </g>
+
+  <g transform="translate(873 340)">
+    <rect width="235" height="150" rx="18" fill="#1e293b" fill-opacity="0.8" stroke="#334155"/>
+    <text x="24" y="45" fill="#c084fc" font-family="Inter, system-ui" font-size="28" font-weight="800">Intelligence</text>
+    <text x="24" y="80" fill="#f1f5f9" font-family="Inter, system-ui" font-size="16" font-weight="600">Geospatial + Graph</text>
+    <text x="24" y="112" fill="#94a3b8" font-family="Inter, system-ui" font-size="13">Maps clusters &amp; organized syndicate networks</text>
+  </g>
+
+  <!-- Live link pill -->
+  <g transform="translate(96 525)">
+    <rect width="360" height="48" rx="14" fill="#2563eb"/>
+    <text x="24" y="30" fill="#ffffff" font-family="Inter, system-ui" font-size="16" font-weight="700">🚀 Live: sentinel-in.vercel.app</text>
+  </g>
+  <g transform="translate(476 525)">
+    <rect width="300" height="48" rx="14" fill="#1e293b" stroke="#475569"/>
+    <text x="24" y="30" fill="#cbd5e1" font-family="Inter, system-ui" font-size="15" font-weight="600">📦 GitHub: rguptaprofile/Sentinel-AI</text>
+  </g>
+</svg>

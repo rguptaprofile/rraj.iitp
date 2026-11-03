@@ -43,19 +43,19 @@ const Navbar = () => {
           }}
         >
           <img src="/favicon.ico" alt="Rahul Raj logo" className="w-9 h-9 rounded-full object-cover" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+          <p className="text-white text-[17px] font-bold cursor-pointer flex ">
             Rahul Raj &nbsp;
-            <span className="sm:block hidden"> | Full-Stack Developer</span>
+            <span className="sm:block hidden text-[#915EFF]"> | IIT Patna</span>
           </p>
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden md:flex flex-row gap-5 lg:gap-7">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[15px] font-medium cursor-pointer transition`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -63,7 +63,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="md:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"

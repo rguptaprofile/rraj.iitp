@@ -1,0 +1,81 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nb-bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#091410"/>
+      <stop offset="50%" stop-color="#0c231a"/>
+      <stop offset="100%" stop-color="#141a2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="36" fill="url(#nb-bg)"/>
+  <circle cx="200" cy="150" r="180" fill="#10b981" fill-opacity="0.12"/>
+  <circle cx="1020" cy="580" r="240" fill="#3b82f6" fill-opacity="0.12"/>
+  
+  <rect x="60" y="60" width="1080" height="600" rx="24" fill="#061c16" fill-opacity="0.75" stroke="#134e4a" stroke-width="2"/>
+  
+  <rect x="96" y="96" width="220" height="38" rx="19" fill="#0f372e" stroke="#14b8a6"/>
+  <text x="116" y="121" fill="#2dd4bf" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700">TRAVEL &amp; CULTURE PLATFORM</text>
+  
+  <text x="96" y="195" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="800">NomadBihari</text>
+  <text x="96" y="240" fill="#99f6e4" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="500">Full-Stack Travel &amp; Cultural Blogging System with AI Content Optimization</text>
+  
+  <!-- Tech badges -->
+  <g transform="translate(96 270)">
+    <rect width="90" height="32" rx="16" fill="#0f372e"/>
+    <text x="16" y="21" fill="#4ade80" font-family="Inter, system-ui" font-size="14" font-weight="600">Node.js</text>
+  </g>
+  <g transform="translate(196 270)">
+    <rect width="90" height="32" rx="16" fill="#0f372e"/>
+    <text x="16" y="21" fill="#38bdf8" font-family="Inter, system-ui" font-size="14" font-weight="600">Express</text>
+  </g>
+  <g transform="translate(296 270)">
+    <rect width="84" height="32" rx="16" fill="#0f372e"/>
+    <text x="16" y="21" fill="#60a5fa" font-family="Inter, system-ui" font-size="14" font-weight="600">MySQL</text>
+  </g>
+  <g transform="translate(390 270)">
+    <rect width="125" height="32" rx="16" fill="#0f372e"/>
+    <text x="16" y="21" fill="#c084fc" font-family="Inter, system-ui" font-size="14" font-weight="600">OpenAI API</text>
+  </g>
+  <g transform="translate(525 270)">
+    <rect width="125" height="32" rx="16" fill="#0f372e"/>
+    <text x="16" y="21" fill="#facc15" font-family="Inter, system-ui" font-size="14" font-weight="600">OTP / JWT</text>
+  </g>
+
+  <!-- Metric / Feature Cards -->
+  <g transform="translate(96 340)">
+    <rect width="235" height="150" rx="18" fill="#082b23" fill-opacity="0.9" stroke="#115e59"/>
+    <text x="24" y="45" fill="#34d399" font-family="Inter, system-ui" font-size="32" font-weight="800">-40%</text>
+    <text x="24" y="80" fill="#f0fdf4" font-family="Inter, system-ui" font-size="16" font-weight="600">Processing Time</text>
+    <text x="24" y="112" fill="#99f6e4" font-family="Inter, system-ui" font-size="13">Optimized media pipeline and structured travel workflows</text>
+  </g>
+  
+  <g transform="translate(355 340)">
+    <rect width="235" height="150" rx="18" fill="#082b23" fill-opacity="0.9" stroke="#115e59"/>
+    <text x="24" y="45" fill="#38bdf8" font-family="Inter, system-ui" font-size="32" font-weight="800">Real-Time</text>
+    <text x="24" y="80" fill="#f0fdf4" font-family="Inter, system-ui" font-size="16" font-weight="600">Social Engagement</text>
+    <text x="24" y="112" fill="#99f6e4" font-family="Inter, system-ui" font-size="13">Likes, comments, shares, and interactive community feed</text>
+  </g>
+
+  <g transform="translate(614 340)">
+    <rect width="235" height="150" rx="18" fill="#082b23" fill-opacity="0.9" stroke="#115e59"/>
+    <text x="24" y="45" fill="#c084fc" font-family="Inter, system-ui" font-size="32" font-weight="800">AI Assist</text>
+    <text x="24" y="80" fill="#f0fdf4" font-family="Inter, system-ui" font-size="16" font-weight="600">Content Optimizer</text>
+    <text x="24" y="112" fill="#99f6e4" font-family="Inter, system-ui" font-size="13">OpenAI integration for auto-summaries, tags &amp; descriptions</text>
+  </g>
+
+  <g transform="translate(873 340)">
+    <rect width="235" height="150" rx="18" fill="#082b23" fill-opacity="0.9" stroke="#115e59"/>
+    <text x="24" y="45" fill="#facc15" font-family="Inter, system-ui" font-size="32" font-weight="800">Secure</text>
+    <text x="24" y="80" fill="#f0fdf4" font-family="Inter, system-ui" font-size="16" font-weight="600">OTP / JWT Auth</text>
+    <text x="24" y="112" fill="#99f6e4" font-family="Inter, system-ui" font-size="13">Admin monitoring, author portals &amp; safe uploads</text>
+  </g>
+
+  <!-- Live link pill -->
+  <g transform="translate(96 525)">
+    <rect width="360" height="48" rx="14" fill="#059669"/>
+    <text x="24" y="30" fill="#ffffff" font-family="Inter, system-ui" font-size="16" font-weight="700">🚀 Live: nomad-bihari.vercel.app</text>
+  </g>
+  <g transform="translate(476 525)">
+    <rect width="320" height="48" rx="14" fill="#082b23" stroke="#115e59"/>
+    <text x="24" y="30" fill="#ccfbf1" font-family="Inter, system-ui" font-size="15" font-weight="600">📦 GitHub: rguptaprofile/NomadBihari</text>
+  </g>
+</svg>
